@@ -90,6 +90,8 @@ To install the VPN, please choose one of the following options:
 
 **Option 1:** Have the script generate random VPN credentials for you (will be displayed when finished):
 
+wget https://raw.githubusercontent.com/Mattaclp/setup-ipsec-vpn/master/vpnsetup.sh -O vpnsetup.sh && sudo sh vpnsetup.sh
+
 ```bash
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
