@@ -32,6 +32,8 @@ First, prepare your Linux server[*](#quick-start-note) with a fresh install of U
 
 Use this one-liner to set up an IPsec VPN server:
 
+wget https://raw.githubusercontent.com/Mattaclp/setup-ipsec-vpn/master/vpnsetup.sh -O vpnsetup.sh && sudo sh vpnsetup.sh
+
 ```bash
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
